@@ -1,7 +1,7 @@
+import 'package:clase_am/services/db_service.dart';
 import 'package:flutter/material.dart';
 import '../models/user_model.dart';
-import '../services/db_servise.dart';
-import 'user_form_screen.dart';
+import 'user/user_form_screen.dart';
 
 class UserDetailScreen extends StatelessWidget {
   final User user;
